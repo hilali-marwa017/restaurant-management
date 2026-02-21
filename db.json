@@ -1,0 +1,112 @@
+{
+  "plats": [
+    {
+      "nom": "Tajine Viande",
+      "prix": 65,
+      "categorie": "Plat Principal",
+      "stock": "Disponible",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nom": "Couscous Royal",
+      "prix": 85,
+      "categorie": "Plat Principal",
+      "stock": "Disponible"
+    },
+    {
+      "id": "3",
+      "nom": "Salade Marocaine",
+      "prix": 30,
+      "categorie": "Entrée",
+      "stock": "Disponible"
+    },
+    {
+      "id": "5",
+      "nom": "Thé à la Menthe",
+      "prix": 15,
+      "categorie": "Boisson",
+      "stock": "Disponible"
+    },
+    {
+      "id": "6",
+      "nom": "Harira",
+      "prix": 25,
+      "categorie": "Entrée",
+      "stock": "Disponible"
+    },
+    {
+      "id": "dac0",
+      "nom": "Brownie fondant",
+      "prix": "40",
+      "categorie": "Dessert",
+      "stock": "Disponible"
+    },
+    {
+      "id": "2d1f",
+      "nom": "Tiramisu",
+      "prix": "45",
+      "categorie": "Dessert",
+      "stock": "Disponible"
+    },
+    {
+      "id": "bb15",
+      "nom": "Jus d'orange",
+      "prix": "20",
+      "categorie": "Boisson",
+      "stock": "Disponible"
+    }
+  ],
+  "reservations": [
+    {
+      "client": "Khawla Naji",
+      "telephone": "0656789012",
+      "personnes": 6,
+      "date": "2026-02-11",
+      "heure": "18:00",
+      "statut": "En attente",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "client": "Fatima Idrissi",
+      "telephone": "0623456789",
+      "personnes": 3,
+      "date": "2026-02-11",
+      "heure": "20:00",
+      "statut": "Confirmée"
+    }
+  ],
+  "commandes": [
+    {
+      "id": "1",
+      "table": 5,
+      "plats": [
+        "Tajine Poulet",
+        "Thé à la Menthe"
+      ],
+      "total": 80,
+      "statut": "Servie"
+    },
+    {
+      "id": "2",
+      "table": 3,
+      "plats": [
+        "Couscous Royal",
+        "Salade Marocaine"
+      ],
+      "total": 115,
+      "statut": "En préparation"
+    },
+    {
+      "id": "3",
+      "table": 8,
+      "plats": [
+        "Pastilla",
+        "Thé à la Menthe"
+      ],
+      "total": 90,
+      "statut": "Servie"
+    }
+  ]
+}
