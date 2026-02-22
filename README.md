@@ -23,9 +23,3 @@ cd resturant-management
 npm install
 npx json-server --watch db.json --port 3001
 npm start
-
-## Author
-
-**Marwa Hilali**  
-- GitHub: [hilali-marwa017](https://github.com/hilali-marwa017)  
-- LinkedIn: [Marwa Hilali](https://www.linkedin.com/in/marwa-hilali)
