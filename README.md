@@ -18,7 +18,7 @@ A React project for managing a restaurant menu. Built with **React.js**, **Boots
 ## Setup
 
 ```bash
-git clone https://github.com/hilali-marwa017/resturant-management.git
+git clone https://github.com/hilali-marwa017/restaurant-management.git
 cd resturant-management
 npm install
 npx json-server --watch db.json --port 3001
