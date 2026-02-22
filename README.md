@@ -24,7 +24,7 @@ git clone https://github.com/hilali-marwa017/restaurant-management.git
 cd restaurant-management
 npm install
 npx json-server --watch db.json --port 3001
-npm start # or npm run dev if you use Vite
+npm run dev 
 ```
 ## Screenshots
 
