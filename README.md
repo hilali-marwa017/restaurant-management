@@ -4,16 +4,18 @@ A React project for managing a restaurant menu. Built with **React.js**, **Boots
 
 ## Features
 
-- View menu items
-- Add, edit, and delete items
-- Responsive design
+- Manage restaurant menu: add, edit, delete dishes
+- Manage reservations: add, edit, cancel, track status
+- Manage orders: view, update status, delete
+- Dashboard with stats and charts
+- Responsive design with Bootstrap
 - Real-time data updates with Axios
 
 ## Tech Stack
 
-- React.js, Bootstrap
-- Axios
-- JSON Server (`db.json`)
+- *Frontend:* React.js, Bootstrap  
+- *HTTP Client:* Axios  
+- *Backend (Fake):* JSON Server (db.json)
 
 ## Setup
 
@@ -22,7 +24,7 @@ git clone https://github.com/hilali-marwa017/restaurant-management.git
 cd restaurant-management
 npm install
 npx json-server --watch db.json --port 3001
-npm start
+npm start # or npm run dev if you use Vite
 ```
 ## Screenshots
 
@@ -37,3 +39,9 @@ npm start
 
 ### Dashboard
 ![Dashboard](public/images/dashboard.png)
+
+## Author
+
+**Marwa Hilali**  
+- GitHub: [hilali-marwa017](https://github.com/hilali-marwa017)  
+- LinkedIn: [Marwa Hilali](https://www.linkedin.com/in/marwa-hilali)
