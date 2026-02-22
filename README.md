@@ -23,3 +23,17 @@ cd restaurant-management
 npm install
 npx json-server --watch db.json --port 3001
 npm start
+```
+## Screenshots
+
+### Menu
+![Menu](public/images/menu.png)
+
+### Reservation
+![Reservation](public/images/reservation.png)
+
+### Command
+![Command](public/images/command.png)
+
+### Dashboard
+![Dashboard](public/images/dashboard.png)
